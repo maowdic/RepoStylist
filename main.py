@@ -15,7 +15,7 @@ APP: str = "REPO.exe"
 def BeautifulString(word: str) -> str:
     return f"you need to type \"{word}\" in the console below."
 
-def BannerPattern(color: AnsiFore, title: str, text: str):
+def BannerPattern(color: AnsiFore, title: str, text: str) -> None:
     print(color)
     tprint(title)
     print(Fore.WHITE)
