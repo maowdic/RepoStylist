@@ -10,7 +10,7 @@ git clone https://github.com/maowdic/RepoStylist.git
 
 cd RepoStylist
 
-pip install -r REQUIREMENTS
+pip install -r REQUIREMENTS.txt
 
 python main.py
 ```
